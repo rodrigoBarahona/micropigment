@@ -1,0 +1,92 @@
+
+body{
+	background:#FF66CC;
+	background-image: url(../imgs/Flores-rosadas.jpg);
+	background-repeat:no-repeat; /* Evita que la imágen se repita para llenar el contenido */
+	background-attachment:fixed; /* Mantiene la imágen fija cuando el usuario haga scroll en el contenido */
+	background-size:cover;
+	background-position:center;
+}
+
+logoStyle{
+    /*SOMBRA INFERIOR*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+        
+}	
+.margenExterno2em{
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    
+}
+.margenExterno1em{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+} 
+
+.margenExterno5px{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+.margenInferior1em{
+    margin-bottom: 1em;
+}
+
+.textoCentrado{
+    text-align: center;
+    text-align: justify;
+    
+}
+
+.sombraCaja{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.margenesVerticales1em{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.margenesVerticales2em{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+footer{
+	background: #66CCFF;
+}
+
+.quitar-float{
+	float:none;
+}
+
+.slabo{
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+}
+
+.slaboFont{
+	font-family: 'Slabo 27px', serif;
+	
+}
+
+
+.productos{
+	border-radius: 5px;
+        
+}
+
+.bordesRedondeados5px{
+	border-radius: 5px;
+}
+
+td{
+    padding: 10px;
+}
+

@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-04-2016, 18:03:38
+    Author     : El Tata
+*/
+
+@media(max-width: 640px){
+    body{
+        background: #03A9F4;
+        background-image: url(../imgs/movil/floresFondo16x9Portrait.jpg);
+        background-repeat:no-repeat; /* Evita que la imágen se repita para llenar el contenido */
+        background-attachment:fixed; /* Mantiene la imágen fija cuando el usuario haga scroll en el contenido */
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+    }
+    
+    .micropigment-card{
+        background-color: #d9edf7;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 1.5em 1em;
+        margin: 1em 0.2em;
+        text-align: center;
+    }
+    .micropigment-card h1{
+        margin:1em auto;
+        font-family: 'Merriweather', serif;
+    }
+    .micropigment-card h2{
+        margin:1em auto;
+        font-family: 'Merriweather', serif;
+    }
+    .micropigment-card h3{
+        margin:1em auto;
+        font-family: 'Merriweather', serif;
+    }
+    .micropigment-image-card{
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+        margin: 1.5em;
+    }
+    
+    .micropigment-image-card img{
+        width: 100%;
+    }
+    
+    .micropigment-image-card h3{
+        font-family: 'Slabo 27px';
+        margin-top: 0px;
+        padding: 0.5em 2em;
+    }
+    
+    .micropigment-card-tabla{
+        max-width: 300px;
+    }
+
+    footer{
+        margin-top: 100px;
+        font-family: 'Slabo 27px', serif;
+        text-align: center;
+        background-color: #ffcafd;
+        color: #666666;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    footer p{
+        font-family: 'Slabo 27px', serif;
+        font-size: 12px;
+        padding: 0px; 
+
+    }
+
+    .logoStyle{
+        margin-top: 1em;
+        padding: 1em;
+        background-color: #d9edf7;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    p{
+        font-family: 'Slabo 27px', serif;
+        font-size: 16px;
+        padding: 1em;
+    }
+
+    .slaboFont{
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .slaboFont16px{
+        font-family: 'Slabo 27px', serif;
+        font-size: 16px;
+    }
+
+    .bordesRedondeados5px{
+        border-radius: 5px;
+    }
+
+    .sombraCaja{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .fondoPurpura{
+        background-color: #e7ebfc;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .sombraCajaCerca{
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .producto{
+        margin: 1.5em;
+        border-radius: 5px;
+        font-family: 'Slabo 27px';
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
